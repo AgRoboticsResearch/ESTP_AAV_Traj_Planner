@@ -1,0 +1,1 @@
+# Autonomous agricultural vehicle (AAV) with implement

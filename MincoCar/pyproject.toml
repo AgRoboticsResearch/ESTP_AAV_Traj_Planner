@@ -1,0 +1,20 @@
+[build-system]
+requires = ["scikit-build-core", "wheel", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "pymincocar"
+version = "1.0.0"
+description = "MINCO Car"
+authors = [
+    { name="Peng Wei", email="penwei@ucdavis.edu" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.scikit-build]
+minimum-version = "0.4"
+build-dir = "build/{wheel_tag}"

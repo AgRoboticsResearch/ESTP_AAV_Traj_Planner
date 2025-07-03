@@ -1,0 +1,9 @@
+# pip install -r requirements.txt
+matplotlib
+numpy
+rasterio
+scikit-build
+shapely
+wheel
+scipy
+pyyaml
