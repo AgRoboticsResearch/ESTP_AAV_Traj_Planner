@@ -2,7 +2,30 @@
 
 [ESTP AAV Trajectory Planner project website](https://qilinn-robotics.github.io/aav-traj-planner.github.io/)
 
-This repo introduces a new method of efficient trajectory planning for agricultural vehicle on the headland. The environment, as well as the agricultural vehicle, are modeled with convex polygons. The planning algorithm is implemented with C++ and the main functions were visualized with Python leveraging Pybind modules.
+This is the project page of the paper "**Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments**". This repo introduces a new method of efficient trajectory planning for agricultural vehicle on the headland. The environment, as well as the agricultural vehicle, are modeled with convex polygons. The planning algorithm is implemented with C++ and the main functions were visualized with Python leveraging Pybind modules.
+
+If you use **ESTP-AAV** for your academic research, please consider citing the follow
+
+* Peng, Wei. Chen, Peng. et al. "Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments." IEEE ROBOTICS AND AUTOMATION LETTERS (RA-L) (2025).
+
+***Paper:*** [IEEE Xplore](https://ieeexplore.ieee.org/document/10854653), [arXiv](https://arxiv.org/abs/2501.10636)
+
+BibTex
+```
+@ARTICLE{10854653,
+  author={Wei, Peng and Peng, Chen and Lu, Wenwu and Zhu, Yuankai and Vougioukas, Stavros and Fei, Zhenghao and Ge, Zhikang},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments}, 
+  year={2025},
+  volume={10},
+  number={3},
+  pages={2574-2581},
+  keywords={Trajectory;Turning;Trajectory planning;Collision avoidance;Planning;Optimization;Geometry;Crops;Autonomous vehicles;Vehicle dynamics;Agricultural automation;motion and path planning;collision avoidance;optimization and optimal control;agricultural autonomous vehicle},
+  doi={10.1109/LRA.2025.3534056}
+}
+```
+
+If you have any question, please feel free to contact us via `{penwei@ucdavis.edu(Peng Wei)` and `chen.peng@zju.edu.cn (Chen Peng)`.
 
 The main contribution of the proposed methodology is as follows:
 
