@@ -25,7 +25,7 @@ BibTex
 }
 ```
 
-If you have any question, please feel free to contact us via `{penwei@ucdavis.edu(Peng Wei)` and `chen.peng@zju.edu.cn (Chen Peng)`.
+If you have any question, please feel free to contact us via `penwei@ucdavis.edu (Peng Wei)` and `chen.peng@zju.edu.cn (Chen Peng)`.
 
 The main contribution of the proposed methodology is as follows:
 
