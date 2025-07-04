@@ -1,10 +1,10 @@
 # Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments
 
-[ESTP AAV Trajectory Planner project website](https://qilinn-robotics.github.io/aav-traj-planner.github.io/)
+[east planner project website](https://agroboticsresearch.github.io/east_planner/)
 
 This is the project page of the paper "**Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments**". This repo introduces a new method of efficient trajectory planning for agricultural vehicle on the headland. The environment, as well as the agricultural vehicle, are modeled with convex polygons. The planning algorithm is implemented with C++ and the main functions were visualized with Python leveraging Pybind modules.
 
-If you use **ESTP-AAV** for your academic research, please consider citing the follow
+If you use **east planner** for your academic research, please consider citing the follow
 
 * Peng, Wei. Chen, Peng. et al. "Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments." IEEE ROBOTICS AND AUTOMATION LETTERS (RA-L) (2025).
 
