@@ -1,27 +1,23 @@
-# Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments
+# Efficient And Safe Trajectory (EAST) Planner
 
-[east planner project website](https://agroboticsresearch.github.io/east_planner/)
+[![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-10854653-blue)](https://ieeexplore.ieee.org/document/10854653)
+[![arXiv VAMP](https://img.shields.io/badge/arXiv-2501.10636-b31b1b.svg)](https://arxiv.org/abs/2501.10636)
+
+[EAST-planner project website](https://agroboticsresearch.github.io/east_planner/)
 
 This is the project page of the paper "**Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments**". This repo introduces a new method of efficient trajectory planning for agricultural vehicle on the headland. The environment, as well as the agricultural vehicle, are modeled with convex polygons. The planning algorithm is implemented with C++ and the main functions were visualized with Python leveraging Pybind modules.
 
-If you use **east planner** for your academic research, please consider citing the follow
-
-* Peng, Wei. Chen, Peng. et al. "Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments." IEEE ROBOTICS AND AUTOMATION LETTERS (RA-L) (2025).
-
-***Paper:*** [IEEE Xplore](https://ieeexplore.ieee.org/document/10854653), [arXiv](https://arxiv.org/abs/2501.10636)
-
-BibTex
-```
-@ARTICLE{10854653,
-  author={Wei, Peng and Peng, Chen and Lu, Wenwu and Zhu, Yuankai and Vougioukas, Stavros and Fei, Zhenghao and Ge, Zhikang},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments}, 
-  year={2025},
-  volume={10},
-  number={3},
-  pages={2574-2581},
-  keywords={Trajectory;Turning;Trajectory planning;Collision avoidance;Planning;Optimization;Geometry;Crops;Autonomous vehicles;Vehicle dynamics;Agricultural automation;motion and path planning;collision avoidance;optimization and optimal control;agricultural autonomous vehicle},
-  doi={10.1109/LRA.2025.3534056}
+If you found this work useful for your own research, please using the following citation:
+```bibtex
+@article{Wei_2025,
+   title={Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments}, 
+   author={Wei, Peng and Peng, Chen and Lu, Wenwu and Zhu, Yuankai and Vougioukas, Stavros and Fei, Zhenghao and Ge, Zhikang},
+   journal={IEEE Robotics and Automation Letters}, 
+   year={2025},
+   volume={10},
+   number={3},
+   pages={2574-2581},
+   doi={10.1109/LRA.2025.3534056}
 }
 ```
 

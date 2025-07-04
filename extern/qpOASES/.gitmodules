@@ -1,3 +1,0 @@
-[submodule "external/ThirdParty-Mumps"]
-	path = external/ThirdParty-Mumps
-	url = https://github.com/coin-or-tools/ThirdParty-Mumps.git
