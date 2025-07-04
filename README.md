@@ -99,10 +99,14 @@ pip3 install .
 ```
 
 ### 7\. Verify installation
-
+After installation, you can verify that everything works correctly by running an example:
 ```bash
-# Try running the Python examples located in the 'test' folder to ensure everything works correctly.
+# Navigate to the example directory
+cd example/
+# Run the provided example script
+python3 east_planner_example.py
 ```
+This will run a basic demonstration of the planner. For more comprehensive examples and tests, please explore the MincoCar/test/ directory.
 
 ## BibTex
 If you find this work useful for your own research, please cite the following:
