@@ -1,4 +1,4 @@
-# Efficient And Safe Trajectory (EAST) Planner
+# Efficient and Safe Trajectory (EAST) Planner
 
 [![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-10854653-blue)](https://ieeexplore.ieee.org/document/10854653)
 [![arXiv VAMP](https://img.shields.io/badge/arXiv-2501.10636-b31b1b.svg)](https://arxiv.org/abs/2501.10636)
@@ -7,7 +7,7 @@
 
 This is the project page of the paper "**Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments**". This repo introduces a new method of efficient trajectory planning for agricultural vehicle on the headland. The environment, as well as the agricultural vehicle, are modeled with convex polygons. The planning algorithm is implemented with C++ and the main functions were visualized with Python leveraging Pybind modules.
 
-If you found this work useful for your own research, please using the following citation:
+If you found this work useful for your own research, please consider citing the following:
 ```bibtex
 @article{Wei_2025,
    title={Efficient and Safe Trajectory Planning for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments}, 
