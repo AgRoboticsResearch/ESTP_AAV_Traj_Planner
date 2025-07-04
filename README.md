@@ -1,4 +1,4 @@
-# Efficient And Safe Trajectory (EAST) Planner
+# Efficient And Safe Trajectory (EAST) Planner for Autonomous Agricultural Vehicle with Implements
 
 [![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-10854653-blue)](https://ieeexplore.ieee.org/document/10854653)
 [![arXiv VAMP](https://img.shields.io/badge/arXiv-2501.10636-b31b1b.svg)](https://arxiv.org/abs/2501.10636)
