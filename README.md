@@ -49,6 +49,61 @@ For the back end smoothing, we applied combined corridors for represent the feas
 
 If you have any questions, feel free to contact us: [Peng Wei](mailto:penwei@ucdavis.edu) and [Chen Peng](mailto:chen.peng@zju.edu.cn).
 
+## Installation Guide
+
+Here's how to install the project, following the steps you provided:
+
+### 1\. Clone the repository
+
+```bash
+git clone https://github.com/AgRoboticsResearch/east_planner.git
+```
+
+### 2\. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3\. Initialize Pybind11 submodule
+
+```bash
+git submodule update --init
+```
+
+### 4\. Install system dependencies
+
+```bash
+# Update package lists
+sudo apt update
+# Install Eigen3 and OMPL development libraries
+sudo apt install libeigen3-dev libompl-dev
+# Install YAML-CPP development library
+sudo apt install libyaml-cpp-dev
+# Install essential build tools
+sudo apt install build-essential cmake libssl-dev python3-pip
+```
+
+### 5\. Install scikit-build
+
+```bash
+pip3 install scikit-build
+```
+
+### 6\. Install MincoCar Python package
+
+```bash
+# Navigate back to the MincoCar directory
+cd MincoCar
+pip3 install .
+```
+
+### 7\. Verify installation
+
+```bash
+# Try running the Python examples located in the 'test' folder to ensure everything works correctly.
+```
+
 ## BibTex
 If you find this work useful for your own research, please cite the following:
 
