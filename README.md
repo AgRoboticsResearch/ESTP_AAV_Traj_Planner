@@ -128,6 +128,7 @@ If you find this work useful for your own research, please cite the following:
 We gratefully acknowledge the use of the following open-source tools:
 - [pybind11](https://github.com/pybind/pybind11) —  for Python bindings of C++ modules. 
 - [qpOASES](https://github.com/coin-or/qpOASES) — for solving quadratic programming (QP) problems
+- [Dftpav](https://github.com/ZJU-FAST-Lab/Dftpav/tree/main) — for building safety corridor
 
 ## License
 This project is released under the Apache License 2.0 License.
