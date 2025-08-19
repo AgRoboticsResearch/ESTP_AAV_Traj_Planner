@@ -1,7 +1,7 @@
 # Efficient and Safe Trajectory (EAST) Planner for Autonomous Agricultural Vehicle Headland Turning in Cluttered Orchard Environments 
 
 [![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-10854653-blue)](https://ieeexplore.ieee.org/document/10854653)
-[![arXiv VAMP](https://img.shields.io/badge/arXiv-2501.10636-b31b1b.svg)](https://arxiv.org/abs/2501.10636)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.10636-b31b1b.svg)](https://arxiv.org/abs/2501.10636)
 [![Project Website](https://img.shields.io/badge/Project_Page-green)](https://agroboticsresearch.github.io/east_planner/)
 
 
