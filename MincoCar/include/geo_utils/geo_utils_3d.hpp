@@ -88,6 +88,7 @@ namespace geo_utils_3d
     {
         inline bool operator()(const Eigen::Vector3d &l,
                                const Eigen::Vector3d &r)
+                               const noexcept
         {
             return l(0) < r(0) ||
                    (l(0) == r(0) &&
