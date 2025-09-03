@@ -88,6 +88,7 @@ namespace geo_utils_3d
     {
         inline bool operator()(const Eigen::Vector3d &l,
                                const Eigen::Vector3d &r)
+            const noexcept
         {
             return l(0) < r(0) ||
                    (l(0) == r(0) &&
@@ -146,7 +147,7 @@ namespace geo_utils_3d
             point = A.col(idBuffer[3 * i + 1]);
             edge0 = point - A.col(idBuffer[3 * i]);
             edge1 = A.col(idBuffer[3 * i + 2]) - point;
-            normal = edge0.cross(edge1); //cross in CW gives an outter normal
+            normal = edge0.cross(edge1); // cross in CW gives an outter normal
             rV.col(i) = normal / normal.dot(point);
         }
         filterVs(rV, epsilon, vPoly);
